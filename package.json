@@ -1,0 +1,14 @@
+{
+  "name": "iconselect.js",
+  "version": "1.0.0",
+  "description": "javascript icon/image select ui library (combobox, dropdown)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paraizo/iconselect.js.git"
+  },
+  "author": "Buğra ÖZDEN <bugra.ozden@gmail.com> (http://bugraozden.com)",
+  "license": "CC 3.0"
+}
