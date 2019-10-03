@@ -1,6 +1,6 @@
 {
   "name": "@thewtex/iconselect.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "javascript icon/image select ui library (combobox, dropdown)",
   "scripts": {
     "start": "webpack-dev-server --mode development --content-base ./dist/ --watch-content-base",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paraizo/iconselect.js.git"
+    "url": "https://github.com/thewtex/iconselect.js.git"
   },
   "author": "Buğra ÖZDEN <bugra.ozden@gmail.com> (http://bugraozden.com)",
   "license": "CC 3.0",
