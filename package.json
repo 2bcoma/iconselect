@@ -16,7 +16,9 @@
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
     "expose-loader": "^0.7.5",
+    "style-loader": "^1.0.0",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.8.2",
