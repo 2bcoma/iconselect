@@ -5,13 +5,13 @@
         <title>Icon/Image Select: Basic Example (Javascript)</title>
 
         <link rel="stylesheet" type="text/css" href="css/lib/control/iconselect.css" >
-        <script type="text/javascript" src="lib/control/iconselect.js"></script>
+        <script type="text/javascript" src="dist/iconselect.min.js"></script>
         
         <script type="text/javascript" src="lib/iscroll.js"></script>
         
         <script>
             
-        var iconSelect;
+        var iconSelect
         var selectedText;
 
         window.onload = function(){
@@ -22,7 +22,7 @@
                selectedText.value = iconSelect.getSelectedValue();
             });
             
-            iconSelect = new IconSelect("my-icon-select");
+            iconSelect = new iconselect.IconSelect("my-icon-select");
 
             var icons = [];
             icons.push({'iconFilePath':'images/icons/1.png', 'iconValue':'1'});

@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "javascript icon/image select ui library (combobox, dropdown)",
   "scripts": {
+    "start": "webpack-dev-server --mode development --content-base ./dist/ --watch-content-base",
+    "build": "webpack-cli --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -10,5 +12,14 @@
     "url": "https://github.com/paraizo/iconselect.js.git"
   },
   "author": "Buğra ÖZDEN <bugra.ozden@gmail.com> (http://bugraozden.com)",
-  "license": "CC 3.0"
+  "license": "CC 3.0",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "expose-loader": "^0.7.5",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2",
+    "webpackbar": "^4.0.0"
+  }
 }
