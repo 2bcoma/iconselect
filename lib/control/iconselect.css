@@ -10,6 +10,7 @@ and open the template in the editor.
 
 .icon-select{
     width:0px;
+    z-index: 2000;
  }
 
  .icon-select .selected-box {
