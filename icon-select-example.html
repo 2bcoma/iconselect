@@ -15,11 +15,12 @@
             
             selectedText = document.getElementById('selected-text');
             
-            document.getElementById('my-icon-select').addEventListener('changed', function(e){
+            var iconSelectElement = document.getElementById('my-icon-select');
+            iconSelectElement.addEventListener('changed', function(e){
                selectedText.value = iconSelect.getSelectedValue();
             });
             
-            iconSelect = new iconselect.IconSelect("my-icon-select");
+            iconSelect = new iconselect.IconSelect("my-icon-select", iconSelectElement);
 
             var icons = [];
             icons.push({'iconFilePath':'images/icons/1.png', 'iconValue':'1'});

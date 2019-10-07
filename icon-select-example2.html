@@ -12,7 +12,8 @@
 
         window.onload = function(){
 
-            iconSelect = new iconselect.IconSelect("my-icon-select", 
+            var iconSelectElement = document.getElementById('my-icon-select');
+            iconSelect = new iconselect.IconSelect("my-icon-select", iconSelectElement,
                 {'selectedIconWidth':48,
                 'selectedIconHeight':48,
                 'selectedBoxPadding':1,
