@@ -1,6 +1,6 @@
 {
   "name": "@thewtex/iconselect.js",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "javascript icon/image select ui library (combobox, dropdown)",
   "scripts": {
     "start": "webpack-dev-server --mode development --content-base ./dist/ --watch-content-base",
