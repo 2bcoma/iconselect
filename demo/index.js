@@ -12,8 +12,15 @@ import i8 from './icons/8.png'
 import i9 from './icons/9.png'
 
 const element = document.createElement('div')
+element.style.position = 'absolute'
+element.style.top = '50%'
+element.style.right = '50%'
+element.style.transform = 'translate(-50%, -50%)'
 document.body.appendChild(element)
-const iconSelect = new IconSelect(null, element)
+const iconSelect = new IconSelect(null, element, {
+	revertHorizontalAxis: true,
+	revertVerticalAxis: true,
+})
 iconSelect.refresh([
 	{ iconFilePath: i0, iconValue: 0 },
 	{ iconFilePath: i1, iconValue: 1 },
