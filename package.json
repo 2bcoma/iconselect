@@ -1,27 +1,22 @@
 {
-  "name": "@thewtex/iconselect.js",
-  "version": "2.1.2",
-  "description": "javascript icon/image select ui library (combobox, dropdown)",
-  "scripts": {
-    "start": "webpack-dev-server --mode development --content-base ./dist/ --watch-content-base",
-    "build": "webpack-cli --mode production",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "iconselect",
+  "version": "1.0.0",
+  "description": "icon and image select ui library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thewtex/iconselect.js.git"
+    "url": "https://github.com/2bcoma/iconselect.git"
   },
   "author": "Buğra ÖZDEN <bugra.ozden@gmail.com> (http://bugraozden.com)",
-  "license": "CC 3.0",
+  "contributors": [
+    "Matt McCormick <> (https://www.mmmccormick.com)",
+    "2bcoma <2bcoma@mail.com> (https://2bcoma.github.io/)"
+  ],
+  "license": "CC 4.0",
+  "scripts": {
+    "demo": "parcel demo/index.html --open"
+  },
   "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
-    "expose-loader": "^0.7.5",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9",
-    "webpack-dev-server": "^3.8.2",
-    "webpackbar": "^4.0.0"
+    "@babel/core": "^7.14.0",
+    "parcel-bundler": "^1.12.0"
   }
 }
