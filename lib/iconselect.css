@@ -1,3 +1,11 @@
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid black;
+}
+
 .icon-select {
 	width: 0px;
 	z-index: 2000;
@@ -9,28 +17,13 @@
 	padding: 0px;
 	width: 70px;
 	height: 60px;
-	border: 1px solid #999999;
+	border: 1px solid white;
 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	background-color: white;
 
 	z-index: 1000;
-}
-
-.icon-select .selected-box:hover {
-	position: relative;
-	margin: 0px;
-	padding: 0px;
-	width: 70px;
-	height: 60px;
-	border: 1px solid #000000;
-	background-color: #ffffff;
-
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
 }
 
 .icon-select .selected-icon {
@@ -49,8 +42,8 @@
 
 .icon-select .component-icon {
 	position: absolute;
-	bottom: 2px;
-	right: 4px;
+	bottom: 1px;
+	right: 1px;
 }
 
 .icon-select .box {
@@ -77,8 +70,8 @@
 	padding: 0px;
 	width: 48px;
 	height: 48px;
-	border: 1px solid #cccccc;
-	background-color: #ffffff;
+	border: 1px solid lightgrey;
+	background-color: white;
 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -89,7 +82,7 @@
 }
 
 .icon-select .icon:hover {
-	border: 1px solid #000000;
+	border: 1px solid black;
 }
 
 .icon-select .icon.selected {
@@ -98,8 +91,8 @@
 	padding: 0px;
 	width: 48px;
 	height: 48px;
-	border: 1px solid #eeeeee;
-	background-color: #eeeeee;
+	border: 1px solid gold;
+	background-color: lightgrey;
 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;

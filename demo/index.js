@@ -17,7 +17,7 @@ element.style.top = '50%'
 element.style.right = '50%'
 element.style.transform = 'translate(-50%, -50%)'
 document.body.appendChild(element)
-const iconSelect = new IconSelect(null, element, {
+const iconSelect = new IconSelect(element, {
 	horizontalIconNumber: 4,
 	verticalIconNumber: 4,
 	boxOnLeft: true,
