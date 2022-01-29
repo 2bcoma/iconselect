@@ -57,3 +57,4 @@ iconSelect.refresh([
 	{ iconFilePath: i8, iconValue: 28 },
 	{ iconFilePath: i9, iconValue: 29 },
 ])
+iconSelect.onSelected = (e) => console.log(e.getSelectedValue())
