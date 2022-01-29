@@ -22,6 +22,7 @@ const iconSelect = new IconSelect(element, {
 	verticalIconNumber: 4,
 	boxOnLeft: true,
 	boxOnTop: true,
+	renderArrow: true,
 })
 iconSelect.refresh([
 	{ iconFilePath: i0, iconValue: 0 },

@@ -41,8 +41,8 @@
 
 .icon-select .component-icon {
 	position: absolute;
-	bottom: 1px;
-	right: 1px;
+	bottom: -1px;
+	right: -1px;
 }
 
 .icon-select .box {
@@ -70,7 +70,6 @@
 	width: 48px;
 	height: 48px;
 	border: 1px solid lightgrey;
-	background-color: white;
 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -90,8 +89,7 @@
 	padding: 0px;
 	width: 48px;
 	height: 48px;
-	border: 1px solid gold;
-	background-color: lightgrey;
+	border: 1px solid yellow;
 
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
